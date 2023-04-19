@@ -1,5 +1,13 @@
 {
   "dependencies": {
+    "com.manakhovn.figma_to_unity_importer": {
+      "version": "file:C:/Users/kulag/Dropbox/Мой ПК (LAPTOP-1CCTUMNQ)/Desktop/FigmaToUnityImporter-main/Assets/FigmaImporter",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.textmeshpro": "2.1.4"
+      }
+    },
     "com.unity.2d.animation": {
       "version": "7.0.10",
       "depth": 1,
