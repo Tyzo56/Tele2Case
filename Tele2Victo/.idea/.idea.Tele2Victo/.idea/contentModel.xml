@@ -35,6 +35,7 @@
             <e p="SceneManager.cs" t="Include" />
           </e>
           <e p="OpenUrl.cs" t="Include" />
+          <e p="PushNotitficationsComponen.cs" t="Include" />
           <e p="QuestionClasses.cs" t="Include" />
           <e p="Questions.cs" t="Include" />
           <e p="QuestionSwitcher.cs" t="Include" />
