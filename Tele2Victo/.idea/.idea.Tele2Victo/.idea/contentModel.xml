@@ -13,11 +13,12 @@
         <e p="FigmaImporter" t="Include">
           <e p="Renders" t="Include" />
         </e>
-        <e p="Fonts" t="Include" />
+        <e p="Fonts" t="Include">
+          <e p="Tele2_╤И╤А╨╕╤Д╤В╤Л" t="Include" />
+        </e>
         <e p="Images" t="Include">
           <e p="Picrures" t="Include" />
           <e p="Sprites" t="Include" />
-          <e p="Tele2_╤И╤А╨╕╤Д╤В╤Л" t="Include" />
         </e>
         <e p="Resourses" t="Include" />
         <e p="Scenes" t="Include" />
@@ -26,13 +27,16 @@
           <e p="InputManager.cs" t="Include" />
           <e p="LevelChanger.cs" t="Include" />
           <e p="Leveles.cs" t="Include" />
+          <e p="LoadUserInfo.cs" t="Include" />
           <e p="Managers" t="Include">
             <e p="SceneManager.cs" t="Include" />
           </e>
+          <e p="OpenUrl.cs" t="Include" />
           <e p="QuestionClasses.cs" t="Include" />
           <e p="Questions.cs" t="Include" />
           <e p="QuestionSwitcher.cs" t="Include" />
           <e p="ScoreChecker.cs" t="Include" />
+          <e p="Synchronization.cs" t="Include" />
           <e p="UIChanger.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">

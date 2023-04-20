@@ -12,8 +12,8 @@ public class LevelChanger : MonoBehaviour
     public void SelectLevel(int index)
     {
         Panele.SetActive(false);
-        UiChanger.UIUpdate();
         levelIndex = index;
+        UiChanger.UIUpdate();
         Debug.Log("Level Selected");
     } 
 }
