@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class Synchronization : MonoBehaviour
 {
 
-    private string serverURL = "http://localhost/tehnostrelka";
+    private string serverURL = "http://f0793905.xsph.ru";
     [SerializeField] Text phone;
 
     public void Login()
