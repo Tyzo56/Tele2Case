@@ -11,5 +11,4 @@ public class SceneManageR : MonoBehaviour
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
     }
-  
 }

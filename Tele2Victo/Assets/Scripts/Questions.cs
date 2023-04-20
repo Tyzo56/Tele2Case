@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
-public class Questions
+[CreateAssetMenu(fileName = "Questions Easy", menuName = "Quiz/New Easy")]
+public class Questions : ScriptableObject
 {
-    public string questionText;
-    public string[] answersText;
-    public int corretAnswerIndex;
+    public List<QuestionEasy> QuestionsEasy;
+    public List<QuestionMid> QuestionMid;
+    public List<QuestionHard> QuestionHard;
 }
