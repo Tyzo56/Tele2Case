@@ -27,7 +27,7 @@ public class QuestionSwitcher : MonoBehaviour
         for (int i = 0; i < Buttons.Count; i++)
         {
             Buttons[i].enabled = true;
-            Buttons[i].image.color = Color.white;
+            Buttons[i].image.color = new Color(255, 255, 255, 0f);
         }
         nextButton.gameObject.SetActive(false);
         infoButton.gameObject.SetActive(false);
