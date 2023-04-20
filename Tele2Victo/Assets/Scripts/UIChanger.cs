@@ -12,11 +12,7 @@ public class UIChanger : MonoBehaviour
     [SerializeField] private QuestionSwitcher QuestionSwitcher;
     [SerializeField] private List<Button> _buttons;
     [SerializeField] Questions Questions;
-
-    private void Awake()
-    {
-        UIUpdate();
-    }
+    
 
     public void UIUpdate()
     {
