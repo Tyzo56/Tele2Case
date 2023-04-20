@@ -17,6 +17,7 @@
           <e p="Tele2_╤И╤А╨╕╤Д╤В╤Л" t="Include" />
         </e>
         <e p="Images" t="Include">
+          <e p="New Folder" t="Include" />
           <e p="Picrures" t="Include" />
           <e p="Sprites" t="Include" />
         </e>
