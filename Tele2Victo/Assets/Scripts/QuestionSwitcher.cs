@@ -14,6 +14,7 @@ public class QuestionSwitcher : MonoBehaviour
     [SerializeField] private Button infoButton;
     [SerializeField] private List<Button> Buttons;
     [SerializeField] private UIChanger UiChanger;
+    [SerializeField] private EndPanel EndPanel;
 
     public void AfterAnswer()
     {
@@ -35,7 +36,7 @@ public class QuestionSwitcher : MonoBehaviour
     public void NextQuestion()
     {
         if(AnswerChecker.count > 4)
-            SceneManager.ChangeScene("Main Menu");
+            EndPanel.SetEndPanel();
         currentQuestionIndex++;
         UiChanger.UIUpdate();
         BeforeAnswer();
