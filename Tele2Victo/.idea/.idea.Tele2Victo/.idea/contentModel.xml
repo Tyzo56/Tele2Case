@@ -17,7 +17,6 @@
           <e p="Tele2_╤И╤А╨╕╤Д╤В╤Л" t="Include" />
         </e>
         <e p="Images" t="Include">
-          <e p="New Folder" t="Include" />
           <e p="Picrures" t="Include" />
           <e p="Sprites" t="Include" />
         </e>
@@ -25,8 +24,6 @@
         <e p="Scenes" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AnswerChecker.cs" t="Include" />
-          <e p="ColorChanger.cs" t="Include" />
-          <e p="EndPanel.cs" t="Include" />
           <e p="InputManager.cs" t="Include" />
           <e p="LevelChanger.cs" t="Include" />
           <e p="Leveles.cs" t="Include" />

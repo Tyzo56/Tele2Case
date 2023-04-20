@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class AnswerChecker : MonoBehaviour
 {
     public int score;
-    public int count = 0;
+    public int count;
     public int correctIndex;
     public int mistakes;
     
@@ -16,7 +16,6 @@ public class AnswerChecker : MonoBehaviour
     [SerializeField] private List<Button> Buttons;
     [SerializeField] private QuestionSwitcher questionSwitcher;
     [SerializeField] private LevelChanger LevelChanger;
-    [SerializeField] private ColorChanger ColorChanger;
 
     public bool AnswerCheck(int inputIndex)
     {
@@ -36,7 +35,6 @@ public class AnswerChecker : MonoBehaviour
 
         if (correctIndex == inputIndex)
         {
-            ColorChanger.ChangeColor(Color.green);
             questionSwitcher.AfterAnswer();
             questionText.text = "Правильно!";
             for (int i = 0; i < Buttons.Count; i++)
@@ -46,7 +44,6 @@ public class AnswerChecker : MonoBehaviour
         }
         else
         {
-            ColorChanger.ChangeColor(Color.red);
             questionText.text = "Неправильно!";
             for (int i = 0; i < Buttons.Count; i++)
                 Buttons[i].enabled = !Buttons[i].enabled;
