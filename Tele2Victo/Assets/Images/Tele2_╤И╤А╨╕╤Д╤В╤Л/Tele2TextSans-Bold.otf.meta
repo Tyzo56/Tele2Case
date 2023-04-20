@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: ec996224efc83d448b7789a8af809789
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Tele2 TextSans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 61d10feda8f4346938d7948a5bbf1b21, type: 3}
+  - {fileID: 12800000, guid: d22b478eda31b3840851f2b0083f451e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
