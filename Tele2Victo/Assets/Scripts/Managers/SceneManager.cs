@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System;
 
-public class SceneManageR : MonoBehaviour
+public class SceneManager : MonoBehaviour
 {
     
     public void ChangeScene(string sceneName)
