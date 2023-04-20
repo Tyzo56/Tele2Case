@@ -10,14 +10,14 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Text QuestionText;
     [SerializeField] private List<Button> Buttons;
 
-    public int currentQuestionIndex = 0;
+
 
     private void Start()
     {
-        UIUpdate();
+        UIUpdate(0, 0);
     }
 
-    public void UIUpdate()
+    public void UIUpdate(int currentQuestionIndex, int currentLevel)
     {
         QuestionText.text = obj.QuestionsJunior[currentQuestionIndex].questionText;
         for (int i = 0; i < 4; i++)

@@ -6,26 +6,18 @@ using UnityEngine;
 
 public class InputManager : MonoBehaviour
 {
-    [SerializeField] private QuestionsEasy obj;
+    [SerializeField] private Levels _levels;
     [SerializeField] private UIManager UiManager;
+    public int currentQuestionIndex = 0;
 
     private int score = 0;
+
+    public void SetLevel(int levelId)
+    {
+        
+    }
     public void CheckAnswer(int index)
     {
-        if (index == obj.QuestionsJunior[UiManager.currentQuestionIndex].corretAnswerIndex)
-        {
-            score++;
-            UiManager.currentQuestionIndex++;
-            try
-            {
-                UiManager.UIUpdate();
-            }
-            catch
-            {
-                SceneManager.LoadScene("Main Menu");
-            }
-        }
-            
         Debug.Log(score);
     }
     
@@ -47,4 +39,17 @@ public class InputManager : MonoBehaviour
         CheckAnswer(3);
     }
 
+    public void Easy()
+    {
+        SetLevel(0);
+    }
+    public void Mid()
+    {
+        SetLevel(1);
+    }
+    public void Hard()
+    {
+        SetLevel(2);
+    }
+    
 }
