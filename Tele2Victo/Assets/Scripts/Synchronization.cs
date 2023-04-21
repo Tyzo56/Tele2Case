@@ -53,7 +53,7 @@ public class Synchronization : MonoBehaviour
         WWWForm form = new WWWForm(); //создание формы для отправки
      
         form.AddField("Login", PlayerPrefs.GetString("phone"));
-        form.AddField("Points", PlayerPrefs.GetString("points"));
+        form.AddField("Points", PlayerPrefs.GetInt("points"));
 
         WWW www = new WWW($"{serverURL}/uploadData.php", form); //отправка формы на сервер
         yield return www;
