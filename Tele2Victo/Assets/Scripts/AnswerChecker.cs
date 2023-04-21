@@ -17,6 +17,7 @@ public class AnswerChecker : MonoBehaviour
     [SerializeField] private QuestionSwitcher questionSwitcher;
     [SerializeField] private LevelChanger LevelChanger;
     [SerializeField] private ColorChanger ColorChanger;
+    [SerializeField] private ScoreChecker ScoreChecker;
 
     public bool AnswerCheck(int inputIndex)
     {
@@ -43,6 +44,7 @@ public class AnswerChecker : MonoBehaviour
                 Buttons[i].enabled = !Buttons[i].enabled;
             score++;
             Debug.Log("Score++!");
+            ScoreChecker.ScoreSaver();
         }
         else
         {
@@ -56,6 +58,7 @@ public class AnswerChecker : MonoBehaviour
             mistakes++;
         }
         Buttons[correctIndex].image.color = Color.green;
+        
         return correctIndex == inputIndex;
     }
 }
