@@ -12,6 +12,6 @@ public class LoadUserInfo : MonoBehaviour
 
         userName.text = PlayerPrefs.GetString("phone");
         
-        pointsText.text = PlayerPrefs.GetString("points");
+        pointsText.text = (PlayerPrefs.GetInt("points")).ToString();
     }
 }
